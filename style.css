@@ -20,6 +20,7 @@ body {
   top: 0;
 }
 
+
 nav li {
   display: inline;
   padding: 0 1vw 0 1vw;
@@ -76,13 +77,19 @@ a {
   padding: 0 13vw 0 13vw;
 }
 
+#projects-showcase a {
+  width: 100%;
+}
+
 .project-tile {
   text-align: center;
   width: 30vw;
+  height: auto;
   margin: 5vh 2vw 5vh 2vw;
   color: #1e90ff;
   background-color: black;
   border: black solid 2px;
+  overflow: hidden;
 }
 
 .project-tile img {
@@ -122,7 +129,6 @@ a {
 #contact a:hover {
   font-weight: bold;
 }
-
 /* Footer */
 
 footer {
